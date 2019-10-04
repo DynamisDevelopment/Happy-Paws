@@ -1,0 +1,69 @@
+footer 
+    // Layout
+    width: 100vw
+    margin-top: 75px
+    padding-top: 25px
+
+    // Misc Styling
+    background-image: url('./assets/images/map.png')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    .details 
+        // Typography
+        color: #fff 
+        font-weight: 600
+        @extend .text-lg 
+        @extend .sm-mt-8, .lg-mt-0
+        a 
+            @extend .text-teal-400
+    form 
+        // Layout
+        width: 30vw
+        min-width: 400px   
+        display: flex 
+        flex-direction: column 
+        justify-content: space-around
+
+        // Typography
+        font-weight: 600 
+        @extend .text-lg, .text-gray-600
+        .wrapper
+            // Layout
+            width: 100%
+            display: flex 
+            justify-content: space-between 
+        input, textarea 
+            // Layout
+            width: 48%
+            margin-bottom: 15px
+            @extend .px-2, .py-3
+
+            // Misc Styling
+            border-radius: 5px
+        textarea 
+            // Layout
+            width: 100%
+            height: 200px
+        .btn 
+            // Layout
+            align-self: flex-end
+    .copyright 
+        // Layout
+        display: flex 
+        justify-content: center
+        align-items: center
+        width: 100vw
+        height: 75px
+        margin-top: 75px
+
+        // Misc Styling
+        background-color: #1A1A1A
+        .wrapper 
+            // Layout
+            display: flex 
+            flex-direction: column 
+
+            // Typography
+            color: #fff
+            text-align: center

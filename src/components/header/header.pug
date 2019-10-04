@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        <?php wp_head(); ?>
+    body
+        nav 
+            h1.logo Happy Paws
+            ul: each val in [{name: 'About', link: "<?php echo site_url('/about'); ?>"}, {name: 'Our Dogs', link: "<?php echo site_url('/ourDogs'); ?>"}, {name: 'Grooming', link: "<?php echo site_url('/grooming'); ?>"}, {name: 'Coupons', link: "<?php echo site_url('/coupons'); ?>"}, {name: 'Contact', link: "<?php echo site_url('/contact'); ?>"}]
+                a(href!=val.link): li=val.name
+                
+            .burger 

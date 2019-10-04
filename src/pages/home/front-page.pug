@@ -1,0 +1,17 @@
+include ../../components/service/service
+include ../../components/sectionTitle/sectionTitle
+include ../../components/coupon/coupon 
+include ../../components/jumbotron/jumbotron 
+
+<?php get_header(); ?>
+        // Jumbotron 
+        +jumbotron()
+        
+        // Services 
+        +sectionTitle('Our Services', 'dark')
+        +service('Bath & Grooming', 'From a standard bath to a full-service groom, we offer a variety of <span> dog grooming </span> that are just right for your pupper or dog. First, Choose a Dog Bath or Dog Groom Package, then personalize the rest to fit your needs!', "<?php echo get_theme_file_uri(\'./assets/images/service-img.png\'); ?>\" alt='Bath and Grooming'")
+        +service('Kennel & Boarding', 'Our high-end luxury <span> Doggie Suites </span> are all equipped with a flat screen for your dogs enjoyment. Our facility was designed to offer your pet the most exclusive and unique experience, a perfect alternative to a caged boarding kennel.', "<?php echo get_theme_file_uri(\'./assets/images/service-img.png\'); ?>\" alt='Kennel & Boarding'")
+
+        // Coupons 
+        +sectionTitle('Coupons', 'dark', 'In-Store Printable Coupons', 'We offer all of our customers in-store printable coupons that you can only find online on our website. Check back daily for new deals!', true)
+<?php get_footer(); ?>
