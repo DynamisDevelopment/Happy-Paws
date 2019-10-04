@@ -5161,6 +5161,11 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
+headwindcss@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/headwindcss/-/headwindcss-1.0.0.tgz#3b97cd9e000a9e9eb3d3d03b3df98012f5961252"
+  integrity sha512-V/IP3fFtp57CrrKkCUe+1KrvadbTm4+oLsa8TOy5tN5ienBTc7WzYauQ7cclYvebZdzcPMBVP+GF93JrrFMg1w==
+
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"

@@ -1,0 +1,31 @@
+@import '../../node_modules/headwindcss/headwind.scss'
+
+// Utilities
+$main-color: #2C204C
+
+.row 
+    // Layout
+    margin-top: 75px
+    display: flex 
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+.btn 
+    // Layout
+    max-width: 150px
+    @extend .bg-red-400
+    @extend .py-2, .px-4
+    
+    // Typography
+    color: #fff 
+    font-weight: 600
+
+    // Misc Styling
+    border-radius: 5px
+
+    // Animation
+    transition: .3s ease-in-out
+    &:hover 
+        // Misc Styling
+        @extend .bg-red-600
+    

@@ -1,7 +1,9 @@
+@import '../../pages/global.sass'
+    
 .sectionTitle
     // Layout
     display: flex 
-    flex-direction: column 
+    flex-direction: column
     align-items: center 
     width: 100vw 
     margin-top: 50px 
@@ -31,20 +33,27 @@
             text-align: center
             font-weight: 600
             @extend .sm-text-2xl, .lg-text-4xl
-    p 
+    .wrapper 
         // Layout
-        margin-top: 15px
-        width: 80%
+        width: 100vw
+        display: flex 
+        flex-direction: column !important
+        align-items: center !important
+        p 
+            // Layout
+            margin-top: 15px
+            width: 80%
 
-        // Typography
-        text-align: center
-        @extend .sm-text-sm, .md-text-base, .lg-text-lg
-    .sub-line 
-        // Layout
-        margin-top: 30px
-        width: 40px
-        height: 3px 
-        background-color: $main-color
+            // Typography
+            text-align: center
+            @extend .sm-text-sm, .md-text-base, .lg-text-lg
+        .sub-line 
+            // Layout
+            margin-top: 30px
+            width: 40px
+            height: 3px 
+            background-color: $main-color
+
 .light 
     // Typography
     color: #fff
