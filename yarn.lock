@@ -5161,10 +5161,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-headwindcss@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/headwindcss/-/headwindcss-1.0.0.tgz#3b97cd9e000a9e9eb3d3d03b3df98012f5961252"
-  integrity sha512-V/IP3fFtp57CrrKkCUe+1KrvadbTm4+oLsa8TOy5tN5ienBTc7WzYauQ7cclYvebZdzcPMBVP+GF93JrrFMg1w==
+headwindcss@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/headwindcss/-/headwindcss-1.0.1.tgz#46f36e591fcc64f48e74eac581517725314bd5e6"
+  integrity sha512-+tVb0q+yTIWK1Ez/3l65s1LR2IXp2zQPybnpqGUiS9QDMi220IV3O6pVOdgE5rtZeQOwekegtl8OWXjq4SAx2Q==
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
