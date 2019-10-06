@@ -1,0 +1,36 @@
+@import '../pages/global.sass'
+
+.social 
+    // Layout
+    margin-top: 50px
+    display: flex 
+    justify-content: space-around
+    align-items: center
+    @extend .sm-flex-col, .md-flex-row
+    .details 
+        // Layout
+        @extend .sm-w-full, .md-w-6_12, .lg-w-4_12
+        @extend .sm-text-center, .md-text-left
+        h1 
+            // Layout
+            margin-bottom: 25px
+
+            // Typography
+            font-weight: 600
+            color: $main-color 
+            @extend .text-4xl
+        p 
+            // Typography
+            color: grey
+            @extend .text-lg
+    .links 
+        // Layout
+        width: 250px
+        display: flex
+        justify-content: space-between
+        @extend .sm-mt-6, .md-mt-0
+        img 
+            // Layout
+            width: 75px
+            height: 75px
+            border-radius: 10px
