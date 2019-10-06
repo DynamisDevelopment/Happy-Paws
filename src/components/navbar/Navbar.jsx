@@ -6,12 +6,12 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-                <h1 className="logo">Happy Paws</h1>
+                <Link to='/'><h1 className="logo">Happy Paws</h1></Link>
                 <ul>
-                    <Link to='#'>About</Link>
-                    <Link to='#'>Our Dogs</Link>
-                    <Link to='#'>Grooming</Link>
-                    <Link to='#'>Coupons</Link>
+                    <Link to='/services'>About</Link>
+                    <Link to='/ourDogs'>Our Dogs</Link>
+                    <Link to='/grooming'>Grooming</Link>
+                    <Link to='/coupons'>Coupons</Link>
                     <Link to='/contact'>Contact</Link>
                 </ul>
             </nav>

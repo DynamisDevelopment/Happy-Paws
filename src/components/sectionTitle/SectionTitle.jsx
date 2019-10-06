@@ -25,15 +25,3 @@ const SectionTitle = ({ title, type = 'light', name, subtext, line }) => {
 export default SectionTitle
 
 
-// mixin sectionTitle(section, $type, name, subtext, line) 
-//     .sectionTitle(class=$type) 
-//         h3=section 
-//         if name  
-//             .section 
-//                 .line 
-//                 h1=name
-//                 .line 
-//             p=subtext
-//             if line 
-//                 .sub-line
-
