@@ -1,0 +1,56 @@
+@import '../pages/global.sass'
+
+.services-section 
+    // Misc Styling
+    background-color: #F5F5F6
+
+.reputation-section 
+    // Layout
+    width: 100%
+
+    // Misc Styling
+    background-color: #F5F5F6
+    .reputation-slider
+        // Layout
+        display: flex 
+        align-items: center !important
+        height: 500px
+        .slick-arrow 
+            // Layout
+            width: 10vw
+        .review 
+            // Layout
+            display: flex !important
+            flex-direction: column 
+            align-items: center
+            width: 80vw
+
+            // Typography
+            color: $main-color 
+            img 
+                // Layout
+                width: 150px
+                height: 150px
+                border-radius: 50%
+            h1 
+                // Layout
+                width: 40%
+
+                // Typography
+                text-align: center
+                font-weight: bold
+                @extend .text-4xl
+            p 
+                // Typography
+                font-weight: 200 
+
+
+.collection 
+    // Layout
+    margin: 15px 0 30px 0
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr))
+    grid-gap: 20px
+    justify-items: center
+    align-content: center
+    @extend .md-px-32, .lg-px-64

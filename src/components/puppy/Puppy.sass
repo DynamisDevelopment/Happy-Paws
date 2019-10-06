@@ -1,0 +1,42 @@
+@import '../../pages/global.sass'
+
+.puppy 
+    // Layout
+    width: 220px 
+    height: 250px
+    img 
+        // Layout
+        height: 220px
+        width: 220px
+        border-radius: 15px
+        margin-bottom: 10px
+        z-index: 1
+    .sticker 
+        // Layout
+        display: flex 
+        justify-content: center 
+        align-items: center
+        width: 50px
+        height: 50px
+        margin: -240px 0 0 -20px
+        position: absolute
+        z-index: 10
+        border-radius: 50%
+
+        // Typography
+        font-weight: bold
+        color: #fff
+        text-align: center 
+        @extend .text-sm 
+    .sale
+        // Misc Styling
+        background-color: #7D8331
+    .sold
+        // Misc Styling
+        background-color: $main-color
+    h3 
+        // Typography
+        color: $main-color
+        font-weight: bold
+        text-align: center 
+        
